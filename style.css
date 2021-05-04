@@ -1,0 +1,97 @@
+:root {
+/* COLORS */
+	
+--grayishBlue: hsl(237, 18%, 59%);
+--softRed: hsl(345, 95%, 68%);
+
+--White: hsl(0, 0%, 100%);
+--darkDesaturatedBlue: hsl(236, 21%, 26%);
+--VeryDarkBlue: hsl(235, 16%, 14%);
+--VeryDARKBlue: hsl(234, 17%, 12%);
+
+  
+/* FONTS */
+	--globalFont: - Family: [Red Hat Text](https://fonts.google.com/specimen/Red+Hat+Text);
+	--headerFont: "DM Serif Display", serif;
+  }
+
+
+ *{
+  	background-color: var(--VeryDarkBlue);
+  	text-align: center;
+  	font-family: var(--globalFont);
+  }
+
+ main{
+  	background-image: url("images/bg-stars.svg");
+  	background-size: cover;
+  }
+  h2{
+  	color:var(--White);
+  	text-transform: uppercase;
+  	margin-top: 15%;
+  	word-spacing: 1em;
+  	letter-spacing: 0.3em;
+  	font-family:  var(--headerFont);
+    margin-bottom: 20%;
+  }
+ 
+  #values{
+    margin-bottom: 1em;
+    height: 5em;
+  }
+  #values p{
+    display: inline;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--softRed);
+    border:1px outset var(--VeryDarkBlue);
+    padding:0.5em;
+    margin: 0.2em;
+    background-color: var(--darkDesaturatedBlue);
+    border-radius:12%;
+    box-shadow:0.5px 6px var(--VeryDARKBlue);
+  }
+   h6{
+  	display: inline;
+    color: var(--grayishBlue);
+    padding: 2.5em;
+    text-transform: uppercase;
+    font-family:  var(--headerFont);
+  }
+#icons{
+	background-image: url("images/pattern-hills.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 15em;
+	
+}
+img{
+	width: 1.5em;
+	margin:15% 2em 0 0;
+}
+  img:hover{
+    background-color: var(--softRed);
+    color: var(--VeryDarkBlue);
+  }
+#icons p, #icons a{
+	background-color: unset;
+	font-size: 12px;  
+  word-spacing: 1em;
+}
+#icons a {
+     color: var(--grayishBlue);
+     text-decoration: none;
+}
+
+@media(min-width: 768px){
+  h2{
+    margin-bottom: 7%;
+  }
+img{
+	margin:10% 2em 2% 0;
+}
+#icons{
+  height: 25em;
+  }
+}
