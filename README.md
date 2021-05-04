@@ -29,8 +29,8 @@ A screenshot of the desktop view of the project is available in the directory.
 
 ### Links
 
-- Solution URL: (https://)
-- Live Site URL: (https://)
+- Solution URL: (https://github.com/PrincessMaggy/launch_countdown_timer)
+- Live Site URL: (https://launch-countdown-timer-self.vercel.app)
 
 ## My process
 I started this project by first writing the respective HTML codes, proceeded to styling and finally javascript.
@@ -51,14 +51,14 @@ This is my first project that includes html, css and javascript simultaneously. 
 
 ### Useful resources
 
-(https://www.stackoveflow.com) - This assisted me while i was brainstorming for solution for the time countdown.
+(https://www.codegrepper.com/code-examples/javascript/javascript+timer+countdown+with+seconds) - This assisted me while i was brainstorming for solution for the time countdown.
 
 (https://www.rithmschool.com/courses/intermediate-javascript/javascript-dom-manipulation) - This is an amazing article which helped me finally understand DOM manipulation. I'd recommend it to anyone still learning this concept.
 
 
 ## Author
 
-- Website - [Edozie Magdalene](https://www.your-site.com)
+- Website - [Edozie Magdalene Princess](https://github.com/PrincessMaggy)
 - Frontend Mentor - [@princessmaggy](https://www.frontendmentor.io/profile/princessmaggy)
 - Twitter - [@princessmaggy7](https://www.twitter.com/princessmaggy7)
 
