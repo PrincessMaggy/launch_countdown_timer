@@ -95,3 +95,21 @@ img{
   height: 25em;
   }
 }
+
+
+
+
+
+@media(max-width: 768px){
+    #values p{
+      font-size: 1.5rem;
+      font-weight: 700;
+      padding:0.2em;
+      margin: 0.1em;
+     
+    }
+    h6{
+      padding: 1.5em;
+      
+    }
+  }
